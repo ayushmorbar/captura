@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://offbeats.com/sitemap.xml
+
+# Block crawling of API routes and internal files
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
